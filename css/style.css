@@ -263,6 +263,8 @@ main .container {
 }
 
 .doing-item {
+  position: relative;
+
   width: calc((100% - 2 * 30px) / 3);
 }
 
@@ -271,6 +273,10 @@ main .container {
 }
 
 .doing-subtitle {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
   color: var(--secondary-title-color);
   background-color: var(--secondary-bg-color);
   font-weight: 700;
