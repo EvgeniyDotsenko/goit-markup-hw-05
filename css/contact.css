@@ -1,0 +1,14 @@
+.oooo {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid black;
+  list-style: none;
+
+  color: cadetblue;
+}
+
+.pppp {
+  width: 100px;
+  height: 100px;
+}
