@@ -1,14 +1,24 @@
-.oooo {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  outline: 1px solid black;
-  list-style: none;
-
-  color: cadetblue;
+.hova {
+  position: relative;
 }
 
-.pppp {
-  width: 100px;
-  height: 100px;
+.works-desco {
+  display: block;
+  padding: 63px 24px 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+
+  letter-spacing: 0.03em;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0px;
 }
