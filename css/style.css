@@ -254,7 +254,7 @@ main .container {
   border-radius: 4px;
 }
 
-.features-icon {
+svg .features-icon {
   width: 70px;
   height: 70px;
   fill: var(--primmary-text-color);
