@@ -369,7 +369,7 @@ main .container {
   padding: 12px;
 
   border-radius: 50%;
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-network > a:hover,
@@ -503,7 +503,6 @@ footer .logo {
 
 .footer-socials {
   display: flex;
-  fill: var(--primary-bg-color);
 }
 
 .socials-item > a {
@@ -513,6 +512,10 @@ footer .logo {
   border-radius: 50%;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials .social-icon {
+  fill: var(--secondary-title-color);
 }
 
 .socials-item > a:hover,
